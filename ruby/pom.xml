@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>polyglot-java</groupId>
+		<artifactId>polyglot-java</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>ruby</artifactId>
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>de.saumya.mojo</groupId>
+				<artifactId>jruby-maven-plugin</artifactId>
+				<version>0.28.6</version>
+				<configuration>
+					<generateJava>true</generateJava>
+					<jrubySwitches>--1.9</jrubySwitches>
+				</configuration>
+				<executions>
+					<execution>
+						<id>process-resources</id>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+						<phase>process-resources</phase>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>polyglot.HelloRuby</mainClass>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jruby</groupId>
+			<artifactId>jruby-complete</artifactId>
+			<version>1.6.7.2</version>
+		</dependency>
+	</dependencies>
+</project>
