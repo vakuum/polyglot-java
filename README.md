@@ -1,3 +1,7 @@
+# polyglot-java
+
+polyglot-java demonstrates how to integrate different JVM languages into a multi-module maven build.
+
 ## Covered Languages
 
 * Clojure (http://clojure.org/)
