@@ -34,7 +34,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 ## Usage
 
-	$ git clone git@github.com:vakuum/polyglot-java
+	$ git clone https://github.com/vakuum/polyglot-java.git
 
 ### Execute
 
