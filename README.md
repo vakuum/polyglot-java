@@ -7,6 +7,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 * Clojure (http://clojure.org/)
 * Groovy (http://groovy.codehaus.org/)
 * Java (http://java.oracle.com/)
+* Kotlin (http://jetbrains.com/kotlin/)
 * Python (http://www.jython.org/)
 * Ruby (http://jruby.org/)
 * Scala (http://www.scala-lang.org/)
@@ -47,6 +48,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	Clojure: Hello Java!
 	Groovy: Hello Java!
 	Java: Hello Java!
+	Kotlin: Hello Java!
 	Python: Hello Java!
 	Ruby: Hello Java!
 	Scala: Hello Java!
@@ -70,6 +72,11 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	$ mvn exec:java --projects java
 	...
 	Java: Hello Java!
+	...
+
+	$ mvn exec:java --projects kotlin
+	...
+	Kotlin: Hello Kotlin!
 	...
 
 	$ mvn exec:java --projects python
@@ -103,6 +110,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	Clojure: Hello Java!
 	Groovy: Hello Java!
 	Java: Hello Java!
+	Kotlin: Hello Java!
 	Python: Hello Java!
 	Ruby: Hello Java!
 	Scala: Hello Java!

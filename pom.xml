@@ -28,6 +28,7 @@
 		<module>clojure</module>
 		<module>groovy</module>
 		<module>java</module>
+		<module>kotlin</module>
 		<module>python</module>
 		<module>ruby</module>
 		<module>scala</module>

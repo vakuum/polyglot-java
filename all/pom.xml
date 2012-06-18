@@ -64,6 +64,12 @@
 
 		<dependency>
 			<groupId>${project.groupId}</groupId>
+			<artifactId>kotlin</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>python</artifactId>
 			<version>${project.version}</version>
 		</dependency>

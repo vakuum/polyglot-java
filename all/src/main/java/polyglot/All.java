@@ -6,6 +6,7 @@ public class All {
 		new HelloClojure().hello("Java");
 		new HelloGroovy().hello("Java");
 		new HelloJava().hello("Java");
+		new HelloKotlin().hello("Java");
 		new HelloPythonFactory().create().hello("Java");
 		new HelloRuby().hello("Java");
 		new HelloScala().hello("Java");
