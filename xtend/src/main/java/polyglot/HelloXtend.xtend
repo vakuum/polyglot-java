@@ -6,6 +6,6 @@ class HelloXtend {
 	}
 
 	def static void main(String[] args) {
-		new HelloXtend().hello("Xtend")
+		new HelloXtend().hello('Xtend')
 	}
 }
