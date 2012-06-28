@@ -20,22 +20,7 @@
 				<version>1.4</version>
 				<configuration>
 					<providerSelection>1.8</providerSelection>
-					<!--
-					<providerSelection>1.7</providerSelection>
-					<providerSelection>1.6</providerSelection>
-					-->
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.codehaus.gmaven.runtime</groupId>
-						<artifactId>gmaven-runtime-1.8</artifactId>
-						<!--
-						<artifactId>gmaven-runtime-1.7</artifactId>
-						<artifactId>gmaven-runtime-1.6</artifactId>
-						-->
-						<version>1.4</version>
-					</dependency>
-				</dependencies>
 				<executions>
 					<execution>
 						<goals>
