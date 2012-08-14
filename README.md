@@ -117,6 +117,16 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	Xtend: Hello Java!
 	...
 
+### Tests
+
+	$ cd polyglot-java
+	$ cat all/src/test/java/polyglot/TestAll.java
+	$ mvn clean install -DskipTests
+	$ mvn test --projects all
+	...
+	Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+	...
+
 ## License
 
 Copyright (c) 2012 Clemens Fuchslocher, released under the MIT license.
