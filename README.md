@@ -1,6 +1,6 @@
 # polyglot-java [![Build Status](https://secure.travis-ci.org/vakuum/polyglot-java.png?branch=master)](http://travis-ci.org/vakuum/polyglot-java)
 
-polyglot-java demonstrates how to integrate different JVM languages into a multi-module maven build.
+polyglot-java demonstrates how to integrate different JVM languages into a multi-module Maven build.
 
 ## Covered Languages
 
