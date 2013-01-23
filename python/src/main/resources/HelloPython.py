@@ -1,5 +1,5 @@
 # coding: utf-8
-from polyglot import HelloPython as HelloPythonType
+from polyglot import HelloPythonType
 
 class HelloPython(HelloPythonType):
 	def hello(self, name):

@@ -1,5 +1,5 @@
 package polyglot;
 
-public interface HelloPython {
+public interface HelloPythonType {
 	void hello(String name);
 }

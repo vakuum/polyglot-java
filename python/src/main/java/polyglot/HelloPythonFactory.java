@@ -12,8 +12,8 @@ public class HelloPythonFactory {
 		clazz = interpreter.get("HelloPython");
 	}
 
-	public HelloPython create() {
-		return (HelloPython) clazz.__call__().__tojava__(HelloPython.class);
+	public HelloPythonType create() {
+		return (HelloPythonType) clazz.__call__().__tojava__(HelloPythonType.class);
 	}
 
 	public static void main(String[] args) {
