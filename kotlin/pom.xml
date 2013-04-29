@@ -56,14 +56,14 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>repository.jetbrains.com</id>
-			<url>http://repository.jetbrains.com/releases</url>
+			<url>http://repository.jetbrains.com/kotlin</url>
 		</pluginRepository>
 	</pluginRepositories>
 
 	<repositories>
 		<repository>
 			<id>repository.jetbrains.com</id>
-			<url>http://repository.jetbrains.com/releases</url>
+			<url>http://repository.jetbrains.com/kotlin</url>
 		</repository>
 	</repositories>
 </project>
