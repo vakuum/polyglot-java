@@ -20,11 +20,19 @@
 				<version>0.5.1</version>
 				<executions>
 					<execution>
-						<id>process-resources</id>
+						<id>compile</id>
 						<goals>
 							<goal>compile</goal>
 						</goals>
-						<phase>process-resources</phase>
+						<phase>compile</phase>
+					</execution>
+
+					<execution>
+						<id>test-compile</id>
+						<goals>
+							<goal>test-compile</goal>
+						</goals>
+						<phase>test-compile</phase>
 					</execution>
 				</executions>
 			</plugin>
