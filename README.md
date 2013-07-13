@@ -21,7 +21,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	$ export PATH=$JAVA_HOME/bin:$PATH
 
 	$ java -version
-	java version "1.6.0_38"
+	java version "1.6.0_45"
 	...
 
 * [Java](http://www.oracle.com/technetwork/java/)
