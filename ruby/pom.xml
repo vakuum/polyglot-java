@@ -17,7 +17,7 @@
 			<plugin>
 				<groupId>de.saumya.mojo</groupId>
 				<artifactId>jruby-maven-plugin</artifactId>
-				<version>0.29.4</version>
+				<version>1.0.0-rc</version>
 				<configuration>
 					<generateJava>true</generateJava>
 					<jrubySwitches>--1.9</jrubySwitches>
