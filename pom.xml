@@ -26,6 +26,7 @@
 	<modules>
 		<module>all</module>
 		<module>clojure</module>
+		<module>gosu</module>
 		<module>groovy</module>
 		<module>java</module>
 		<module>kotlin</module>

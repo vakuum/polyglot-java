@@ -52,6 +52,12 @@
 
 		<dependency>
 			<groupId>${project.groupId}</groupId>
+			<artifactId>gosu</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>groovy</artifactId>
 			<version>${project.version}</version>
 		</dependency>

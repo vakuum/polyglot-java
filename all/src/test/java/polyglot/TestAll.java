@@ -9,6 +9,11 @@ public class TestAll {
 	}
 
 	@Test
+	public void testGosu() {
+		new HelloGosu().hello("Java");
+	}
+
+	@Test
 	public void testGroovy() {
 		new HelloGroovy().hello("Java");
 	}

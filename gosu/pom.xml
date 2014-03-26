@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>polyglot-java</groupId>
+		<artifactId>polyglot-java</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>gosu</artifactId>
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.gosu-lang.gosu</groupId>
+				<artifactId>gosu-maven-plugin</artifactId>
+				<version>0.10.3</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>polyglot.HelloGosu</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+
+		<resources>
+			<resource>
+				<directory>src/main/gosu</directory>
+			</resource>
+		</resources>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.gosu-lang.gosu</groupId>
+			<artifactId>gosu-core</artifactId>
+			<version>0.10.3</version>
+		</dependency>
+	</dependencies>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>gosu-lang.org</id>
+			<url>http://gosu-lang.org/nexus/content/groups/releases/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<repositories>
+		<repository>
+			<id>gosu-lang.org</id>
+			<url>http://gosu-lang.org/nexus/content/groups/releases/</url>
+		</repository>
+	</repositories>
+</project>
