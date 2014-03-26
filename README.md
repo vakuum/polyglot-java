@@ -16,13 +16,13 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 ## Requirements
 
-### Java 1.6.0
+### Java 1.7.0
 
-	$ export JAVA_HOME=/opt/jdk-1.6.0
+	$ export JAVA_HOME=/opt/jdk-1.7.0
 	$ export PATH=$JAVA_HOME/bin:$PATH
 
 	$ java -version
-	java version "1.6.0_45"
+	java version "1.7.0_51"
 	...
 
 * [Java](http://www.oracle.com/technetwork/java/)
