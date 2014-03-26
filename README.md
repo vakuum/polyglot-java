@@ -30,6 +30,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 ### Maven 3.0
 
+	$ export MAVEN_OPTS=-XX:MaxPermSize=128m
 	$ export M2_HOME=/opt/maven-3.0
 	$ export PATH=$M2_HOME/bin:$PATH
 
