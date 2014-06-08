@@ -15,8 +15,4 @@ public class HelloPythonFactory {
 	public HelloPythonType create() {
 		return (HelloPythonType) clazz.__call__().__tojava__(HelloPythonType.class);
 	}
-
-	public static void main(String[] args) {
-		new HelloPythonFactory().create().hello("Python");
-	}
 }

@@ -32,7 +32,7 @@ public class TestAll {
 
 	@Test
 	public void testPython() {
-		new HelloPythonFactory().create().hello("Java");
+		new HelloPython().hello("Java");
 	}
 
 	@Test
