@@ -4,7 +4,7 @@ public class All {
 	public void greet() {
 		System.out.println("Hello, I am Java!");
 		new HelloClojure().hello("Java");
-		// new HelloGosu().hello("Java");
+		new HelloGosu().hello("Java");
 		new HelloGroovy().hello("Java");
 		new HelloJava().hello("Java");
 		new HelloKotlin().hello("Java");

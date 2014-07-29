@@ -8,12 +8,10 @@ public class TestAll {
 		new HelloClojure().hello("Java");
 	}
 
-	/*
 	@Test
 	public void testGosu() {
 		new HelloGosu().hello("Java");
 	}
-	*/
 
 	@Test
 	public void testGroovy() {
