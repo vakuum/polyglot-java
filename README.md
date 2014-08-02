@@ -8,7 +8,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 * Gosu (http://gosu-lang.org/)
 * Groovy (http://groovy.codehaus.org/)
 * Java (http://java.oracle.com/)
-* Kotlin (http://jetbrains.com/kotlin/)
+* Kotlin (http://kotlinlang.org/)
 * Python (http://www.jython.org/)
 * Ruby (http://jruby.org/)
 * Scala (http://www.scala-lang.org/)
