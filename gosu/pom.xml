@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>org.gosu-lang.gosu</groupId>
 			<artifactId>gosu-core</artifactId>
-			<version>1.4.3</version>
+			<version>1.4.5</version>
 		</dependency>
 	</dependencies>
 
