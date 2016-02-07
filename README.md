@@ -28,19 +28,17 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 * [Java](http://www.oracle.com/technetwork/java/)
 * [Java Download](http://www.oracle.com/technetwork/java/javase/downloads/)
 
-### Maven 3.0
+### Maven 3.3
 
-	$ export MAVEN_OPTS=-XX:MaxPermSize=128m
-	$ export M2_HOME=/opt/maven-3.0
+	$ export M2_HOME=/opt/maven-3.3
 	$ export PATH=$M2_HOME/bin:$PATH
 
 	$ mvn --version
-	Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 14:51:28+0100)
+	Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T17:41:47+01:00)
 	...
 
 * [Maven](https://maven.apache.org/)
 * [Maven Download](https://maven.apache.org/download.cgi)
-* [Maven Installation Instructions](https://maven.apache.org/download.cgi#Installation_Instructions)
 
 ## Usage
 
