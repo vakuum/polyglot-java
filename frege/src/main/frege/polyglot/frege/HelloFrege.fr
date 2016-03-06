@@ -1,0 +1,8 @@
+module polyglot.frege.HelloFrege where
+
+hello :: String -> IO()
+hello name = do
+	println $ "Frege: Hello " ++ name ++ "!"
+
+main args = do
+	hello $ "Frege"

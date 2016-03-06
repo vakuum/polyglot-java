@@ -5,6 +5,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 ## Covered Languages
 
 * Clojure (http://clojure.org/)
+* Frege (http://www.frege-lang.org/)
 * Gosu (http://gosu-lang.org/)
 * Groovy (http://groovy.codehaus.org/)
 * Java (http://java.oracle.com/)
@@ -53,6 +54,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	...
 	Hello, I am Java!
 	Clojure: Hello Java!
+	Frege: Hello Java!
 	Gosu: Hello Java!
 	Groovy: Hello Java!
 	Java: Hello Java!
@@ -70,6 +72,11 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	$ mvn exec:java --projects clojure
 	...
 	Clojure: Hello Clojure!
+	...
+
+	$ mvn exec:java --projects frege
+	...
+	Frege: Hello Frege!
 	...
 
 	$ mvn exec:java --projects gosu
@@ -121,6 +128,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	...
 	Hello, I am Java!
 	Clojure: Hello Java!
+	Frege: Hello Java!
 	Gosu: Hello Java!
 	Groovy: Hello Java!
 	Java: Hello Java!
@@ -138,7 +146,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	$ mvn clean install -DskipTests
 	$ mvn test --projects all
 	...
-	Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+	Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
 	...
 
 ## License
