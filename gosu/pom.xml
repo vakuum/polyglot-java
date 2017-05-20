@@ -17,7 +17,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
-				<version>1.10</version>
+				<version>3.0.0</version>
 				<executions>
 					<execution>
 						<id>add-source</id>
@@ -54,7 +54,7 @@
 					<dependency>
 						<groupId>org.gosu-lang.gosu</groupId>
 						<artifactId>gosu-maven-compiler</artifactId>
-						<version>1.12</version>
+						<version>1.13.14</version>
 					</dependency>
 				</dependencies>
 			</plugin>
@@ -73,7 +73,7 @@
 		<dependency>
 			<groupId>org.gosu-lang.gosu</groupId>
 			<artifactId>gosu-core</artifactId>
-			<version>1.12</version>
+			<version>1.13.14</version>
 		</dependency>
 	</dependencies>
 </project>
