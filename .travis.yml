@@ -2,3 +2,10 @@ language: java
 
 jdk:
   - oraclejdk8
+
+before_install:
+  - wget https://www.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz
+  - tar -zxvf apache-maven-3.5.0-bin.tar.gz
+  - export M2_HOME=$PWD/apache-maven-3.5.0
+  - export PATH=$M2_HOME/bin:$PATH
+  - mvn --version
