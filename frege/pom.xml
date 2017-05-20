@@ -17,7 +17,7 @@
 			<plugin>
 				<groupId>com.theoryinpractise.frege</groupId>
 				<artifactId>frege-maven-plugin</artifactId>
-				<version>1.0.7</version>
+				<version>1.0.8</version>
 				<executions>
 					<execution>
 						<id>frege-compile</id>
@@ -43,7 +43,8 @@
 		<dependency>
 			<groupId>org.frege-lang</groupId>
 			<artifactId>frege</artifactId>
-			<version>3.23.422-ga05a487</version>
+			<version>3.24.100.1</version>
+			<classifier>jdk8</classifier>
 		</dependency>
 	</dependencies>
 </project>
