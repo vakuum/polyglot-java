@@ -31,11 +31,11 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 ### Maven 3.3
 
-	$ export M2_HOME=/opt/maven-3.3
+	$ export M2_HOME=/opt/maven-3.5
 	$ export PATH=$M2_HOME/bin:$PATH
 
 	$ mvn --version
-	Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T17:41:47+01:00)
+	Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T21:39:06+02:00)
 	...
 
 * [Maven](https://maven.apache.org/)
