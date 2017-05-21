@@ -29,7 +29,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 * [Java](http://www.oracle.com/technetwork/java/)
 * [Java Download](http://www.oracle.com/technetwork/java/javase/downloads/)
 
-### Maven 3.3
+### Maven 3.5
 
 	$ export M2_HOME=/opt/maven-3.5
 	$ export PATH=$M2_HOME/bin:$PATH
