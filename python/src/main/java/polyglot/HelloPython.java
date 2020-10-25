@@ -8,7 +8,7 @@ public class HelloPython {
 	}
 
 	public void hello(String name) {
-		object.hello("Python");
+		object.hello(name);
 	}
 
 	public static void main(String[] args) {
