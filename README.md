@@ -123,7 +123,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 	$ cd polyglot-java
 	$ mvn clean install -DskipTests
-	$ mvn assembly:assembly --projects all -DskipTests
+	$ mvn package assembly:single --projects all -DskipTests
 	$ java -jar all/target/polyglot-java.jar
 	...
 	Hello, I am Java!
