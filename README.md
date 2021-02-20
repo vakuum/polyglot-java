@@ -1,4 +1,4 @@
-# polyglot-java [![Build Status](https://api.travis-ci.org/vakuum/polyglot-java.png?branch=master)](http://travis-ci.org/vakuum/polyglot-java)
+# polyglot-java [![Build status](https://github.com/vakuum/polyglot-java/workflows/build/badge.svg)](https://github.com/vakuum/polyglot-java/actions?query=workflow%3Abuild)
 
 polyglot-java demonstrates how to integrate different JVM languages into a multi-module Maven build.
 
