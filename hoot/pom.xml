@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>polyglot-java</groupId>
+		<artifactId>polyglot-java</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>hoot</artifactId>
+	<packaging>jar</packaging>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>hoot-smalltalk</groupId>
+					<artifactId>hoot-maven-plugin</artifactId>
+					<version>2021.0309.1408</version>
+					<dependencies>
+						<dependency>
+							<groupId>hoot-smalltalk</groupId>
+							<artifactId>hoot-compiler-bundle</artifactId>
+							<version>2021.0309.1408</version>
+						</dependency>
+					</dependencies>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>hoot-smalltalk</groupId>
+				<artifactId>hoot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>polyglot.HelloHoot</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>hoot-smalltalk</groupId>
+			<artifactId>hoot-libs-bundle</artifactId>
+			<version>2021.0309.1408</version>
+		</dependency>
+		<dependency>
+			<groupId>hoot-smalltalk</groupId>
+			<artifactId>hoot-compiler-bundle</artifactId>
+			<version>2021.0309.1408</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>hoot-libs</id>
+			<url>https://dl.cloudsmith.io/public/educery/hoot-libs/maven/</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>hoot-libs</id>
+			<url>https://dl.cloudsmith.io/public/educery/hoot-libs/maven/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

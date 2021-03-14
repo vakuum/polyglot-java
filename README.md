@@ -8,6 +8,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 * Frege (https://github.com/Frege/frege/)
 * Gosu (https://github.com/gosu-lang/gosu-lang)
 * Groovy (https://www.groovy-lang.org/)
+* Hoot (https://gitlab.com/hoot-smalltalk/hoot-smalltalk)
 * Java (https://www.oracle.com/java/)
 * Kotlin (https://kotlinlang.org/)
 * Python (https://www.jython.org/)
@@ -57,6 +58,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	Frege: Hello Java!
 	Gosu: Hello Java!
 	Groovy: Hello Java!
+	Hoot: Hello Java!
 	Java: Hello Java!
 	Kotlin: Hello Java!
 	Python: Hello Java!
@@ -87,6 +89,11 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	$ mvn exec:java --projects groovy
 	...
 	Groovy: Hello Groovy!
+	...
+
+	$ mvn exec:java --projects hoot
+	...
+	Hoot: Hello Hoot!
 	...
 
 	$ mvn exec:java --projects java
@@ -131,6 +138,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	Frege: Hello Java!
 	Gosu: Hello Java!
 	Groovy: Hello Java!
+	Hoot: Hello Java!
 	Java: Hello Java!
 	Kotlin: Hello Java!
 	Python: Hello Java!
@@ -146,7 +154,7 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 	$ mvn clean install -DskipTests
 	$ mvn test --projects all
 	...
-	Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+	Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 	...
 
 ## License

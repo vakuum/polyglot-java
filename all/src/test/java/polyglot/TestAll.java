@@ -24,6 +24,11 @@ public class TestAll {
 	}
 
 	@Test
+	public void testHoot() {
+		new HelloHoot().hello("Java");
+	}
+
+	@Test
 	public void testJave() {
 		new HelloJava().hello("Java");
 	}

@@ -70,6 +70,12 @@
 
 		<dependency>
 			<groupId>${project.groupId}</groupId>
+			<artifactId>hoot</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>java</artifactId>
 			<version>${project.version}</version>
 		</dependency>

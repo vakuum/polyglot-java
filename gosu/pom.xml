@@ -75,5 +75,12 @@
 			<artifactId>gosu-core</artifactId>
 			<version>1.15.8</version>
 		</dependency>
+
+		<dependency>
+			<!-- Workaround: Build the hoot module before the gosu module. -->
+			<groupId>${project.groupId}</groupId>
+			<artifactId>hoot</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 </project>

@@ -1,0 +1,24 @@
+Hoot Runtime Names Primitive import.
+
+Object subclass: HelloHoot.
+
+HelloHoot class members:
+[
+	HelloHoot! new [
+		^HelloHoot basicNew
+	]
+]
+
+HelloHoot members:
+[
+	Void! hello: Java Lang String! name [
+		Primitive print: 'Hoot: Hello ' primitiveString.
+		Primitive print: name.
+		Primitive printLine: '!' primitiveString.
+	]
+
+	@Static! Void! main: Java Lang String! ... args [
+		HelloHoot new; hello: 'Hoot' primitiveString.
+	]
+]
+
