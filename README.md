@@ -159,4 +159,4 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 ## License
 
-Copyright (c) 2012-2020 Clemens Fuchslocher, released under the MIT license.
+Copyright (c) 2012-2021 Clemens Fuchslocher, released under the MIT license.
