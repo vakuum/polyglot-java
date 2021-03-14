@@ -4,15 +4,15 @@ polyglot-java demonstrates how to integrate different JVM languages into a multi
 
 ## Covered Languages
 
-* Clojure (http://clojure.org/)
+* Clojure (https://clojure.org/)
 * Frege (https://github.com/Frege/frege/)
-* Gosu (https://gosu-lang.github.io/)
-* Groovy (http://www.groovy-lang.org/)
-* Java (http://java.oracle.com/)
-* Kotlin (http://kotlinlang.org/)
-* Python (http://www.jython.org/)
-* Ruby (http://jruby.org/)
-* Scala (http://www.scala-lang.org/)
+* Gosu (https://github.com/gosu-lang/gosu-lang)
+* Groovy (https://www.groovy-lang.org/)
+* Java (https://www.oracle.com/java/)
+* Kotlin (https://kotlinlang.org/)
+* Python (https://www.jython.org/)
+* Ruby (https://www.jruby.org/)
+* Scala (https://www.scala-lang.org/)
 * Xtend (https://www.eclipse.org/xtend/)
 
 ## Requirements
